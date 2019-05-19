@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.test.basetest.BaseClass;
 
 public class RegisterPage extends BaseClass {
-	@FindBy(css = ".box.tabularssss")
+	@FindBy(css = ".box.tabular")
 	public WebElement registerForm;
 
 	public RegisterPage(WebDriver driver) {

@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
  features = "src/test/resources/feature"
- ,glue={"com.test"},tags= {"@XTP-001,@XTP-002"},
+ ,glue={"com.test"},tags= {"@Smoke"},
 plugin = { "com.cucumber.listener.ExtentCucumberFormatter:target/Extent_Report/ExtentReport.html"}
  )
 public class TestRunner {
